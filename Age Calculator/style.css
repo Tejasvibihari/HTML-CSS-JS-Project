@@ -1,0 +1,47 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.main {
+    background-color: #FBF9F1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    padding: 80px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 5px;
+    /* text-align: center; */
+}
+
+.main h1 {
+    text-align: center;
+}
+
+.para {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.ageButton {
+    margin-top: 15px;
+
+}
+
+.finalAge {
+    text-align: center;
+    margin-top: 10px;
+}
