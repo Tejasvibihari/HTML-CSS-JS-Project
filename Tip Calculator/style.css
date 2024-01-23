@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #f2f2f2;
+}
+
+.main {
+    background-color: white;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 25px;
+    box-shadow: 0 0 10px rgb(64, 69, 64);
+    border-radius: 5px;
+}
+
+.main h1 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+button {
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: rgb(10, 228, 10);
+    border: none;
+}
+
+button:hover {
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: rgb(76, 42, 216);
+    color: white;
+
+}
